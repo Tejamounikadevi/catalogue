@@ -10,7 +10,7 @@ pipeline {
     options {
         timeout(time: 1, unit: 'HOURS')
         disableConcurrentBuilds()
-        nexusURL = '172.31.5.95:8081'
+        nexusURL = '172.31.40.73:8081'
     }
     // parameters {
     //     string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
